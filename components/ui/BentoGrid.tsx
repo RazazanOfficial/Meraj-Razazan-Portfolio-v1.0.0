@@ -150,7 +150,7 @@ export const BentoGridItem = ({
           {id === 4 && (
             <a
               className="w-[50%]"
-              href="/resume.pdf"
+              href="./resume.pdf"
               download="Resume_MerajRezazan.pdf"
             >
               <MagicButton
