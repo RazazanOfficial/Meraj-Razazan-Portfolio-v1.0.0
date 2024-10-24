@@ -36,6 +36,7 @@ const Hero = () => {
             words="Hi, I’m Meraj Rezazan, a Full-Stack Developer."
             filter={true}
             className="text-center text-xl sm:text-5xl lg:text-2xl xl:text-6xl 2xl:text-7xl"
+            duration={1.5}
           />
           <p className="text-center md:tracking-wider mb-4 text-base md:text-xl xl:text-2xl 2xl:text-4xl">
             The one who’s perfect for your project :)
