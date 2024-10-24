@@ -2,6 +2,7 @@ import React from "react";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -19,8 +20,8 @@ const Footer = () => {
           <span className="text-purple">successful collaboration?</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-cneter">
-          If you're excited to start a project together, feel free to drop me a
-          message at razazanOfficial@gmail.com or simply{" "}
+          If you&apos;re excited to start a project together, feel free to drop
+          me a message at razazanOfficial@gmail.com or simply{" "}
           <span className="text-red-500">click</span> the{" "}
           <span className="text-red-700 font-bold">button below!</span>
         </p>
@@ -42,8 +43,8 @@ const Footer = () => {
               key={i}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-100 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <a href={item.href}>
-                <img
+              <a href={item.href} target="_blank">
+                <Image
                   src={item.img}
                   alt={item.id.toString()}
                   width={20}
